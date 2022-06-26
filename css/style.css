@@ -1,0 +1,29 @@
+body {
+    font-family: Consolas;
+    font-size: 14px;
+}
+
+.container {
+    background-image: url(../img/paper_2.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info div:nth-child(1){
+    text-align: start;
+}
+
+hr {
+    border: 1px dotted black;
+}
